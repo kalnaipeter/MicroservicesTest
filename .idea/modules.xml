@@ -3,8 +3,8 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/api-gateway/api-gateway.iml" filepath="$PROJECT_DIR$/api-gateway/api-gateway.iml" />
-      <module fileurl="file://$PROJECT_DIR$/diceroll/diceroll.iml" filepath="$PROJECT_DIR$/diceroll/diceroll.iml" />
-      <module fileurl="file://$PROJECT_DIR$/rpggame/rpggame.iml" filepath="$PROJECT_DIR$/rpggame/rpggame.iml" />
+      <module fileurl="file://$PROJECT_DIR$/data-handler/data-handler.iml" filepath="$PROJECT_DIR$/data-handler/data-handler.iml" />
+      <module fileurl="file://$PROJECT_DIR$/data-store/data-store.iml" filepath="$PROJECT_DIR$/data-store/data-store.iml" />
       <module fileurl="file://$PROJECT_DIR$/service-registry/service-registry.iml" filepath="$PROJECT_DIR$/service-registry/service-registry.iml" />
     </modules>
   </component>
