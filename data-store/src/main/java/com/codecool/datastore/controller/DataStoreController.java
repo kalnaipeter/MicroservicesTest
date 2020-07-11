@@ -1,5 +1,6 @@
 package com.codecool.datastore.controller;
 
+import com.codecool.datastore.entity.VideoEntity;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.extern.slf4j.Slf4j;
@@ -13,19 +14,11 @@ import org.springframework.web.bind.annotation.RestController;
 public class DataStoreController {
 
     @GetMapping("/1")
-    public Video video1(){
-        return new Video(
+    public VideoEntity video1(){
+        return new VideoEntity(
                 1,
                 "video1",
                 "www.video1.com"
         );
-    }
-
-    @Data
-    @AllArgsConstructor
-    public class Video{
-        private int id;
-        private String name;
-        private String url;
     }
 }

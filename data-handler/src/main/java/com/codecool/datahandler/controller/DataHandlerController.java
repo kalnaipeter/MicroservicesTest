@@ -9,8 +9,8 @@ import org.springframework.web.bind.annotation.RestController;
 public class DataHandlerController {
 
     @Autowired
-    private DataHandlerService dataHandlerService;
+    private DataHandlerService service;
 
     @GetMapping("/result")
-    public String result(){ return dataHandlerService.video1();}
+    public String result(){ return service.getvideo1();}
 }
