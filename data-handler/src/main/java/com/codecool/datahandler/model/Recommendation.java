@@ -5,8 +5,8 @@ import lombok.NoArgsConstructor;
 
 @Data
 @NoArgsConstructor
-public class Video {
+public class Recommendation {
     private Long id;
-    private String name;
-    private String url;
+    private String recommendation;
+    private Video video;
 }
