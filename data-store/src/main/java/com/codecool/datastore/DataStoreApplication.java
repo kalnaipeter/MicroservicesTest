@@ -67,21 +67,25 @@ public class DataStoreApplication {
 			VideoEntity video1 = VideoEntity.builder()
 					.name("Crawl")
 					.url("https://www.youtube.com/watch?v=H6MLJG0RdDE")
+					.recommendation(recommendationEntity1)
 					.build();
 
 			VideoEntity video2 = VideoEntity.builder()
 					.name("Highkeeper Ra 40 dmg OTK Combo")
 					.url("https://www.youtube.com/watch?v=Tom4XAUoeZ0")
+					.recommendation(recommendationEntity2)
 					.build();
 
 			VideoEntity video3 = VideoEntity.builder()
 					.name("47 Meters Down: Uncaged ")
 					.url("https://www.youtube.com/watch?v=AvXjx8SZbv8")
+					.recommendation(recommendationEntity3)
 					.build();
 
 			VideoEntity video4 = VideoEntity.builder()
 					.name("Yung Lean — Outta My Head")
 					.url("https://www.youtube.com/watch?v=2Kjy5r6wS6w")
+					.recommendation(recommendationEntity4)
 					.build();
 
 			recommendationEntity2.setVideoEntity(video2);

@@ -22,6 +22,7 @@ public class VideoEntity{
 
     private String url;
 
+    @Singular
     @OneToMany(mappedBy = "videoEntity" ,cascade = {CascadeType.PERSIST,CascadeType.REMOVE})
     @EqualsAndHashCode.Exclude
     @ToString.Exclude
